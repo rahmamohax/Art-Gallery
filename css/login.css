@@ -1,0 +1,62 @@
+div .formbox {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    /* margin-top: 160px; */
+    width: 40%;
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    background: #e8e7e74d;
+    padding: 100px 60px 50px;
+    border-radius: 30px;
+    text-align: center;
+}
+.formbox h1 {
+    padding-left: 60px;
+    top: 5%;
+    font-size: 30px;
+    font-weight: bold;
+    position:absolute;
+    left: 0;
+}
+.pic{
+    position:relative;
+    float: right;
+    margin: -80px 70px;
+    /* border: 20px solid #ccc; */
+}
+b{
+    font-size: 12px;
+}
+.formbox h1::after {
+    content: '';
+    width: 70px;
+    height: 4px;
+    position: absolute;
+    background: #d2b356;
+    bottom: 10px;
+    left: 70%;
+    transform: translateX(-50%);
+}
+input[type=text], input[type=password], input[type=email], input[type=number] {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    display:block;
+    border: 3px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+.login{
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    background-color: #111010;
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+button:hover {
+    opacity: 0.8;
+}
